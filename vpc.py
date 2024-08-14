@@ -18,13 +18,7 @@ else:
 
 
 
-#create vpc
-#ec2 = boto3.client('ec2')
-# vpc_name = 'vpc-ho1'
-# vpc_response = ec2.create_vpc(CidrBlock='10.0.0.0/16')
-# vpc_id = vpc_response['Vpc']['VpcId']
-# ec2.create_tags(Resources=[vpc_id], Tags =[{'Key':'Name', 'Value':'vpc_name'}]) 
-# print(f"VPC '{vpc_name}' with id '{vpc_id}' has been created ")
+
 
 
 
